@@ -39,6 +39,5 @@ def activate():
         "hardware_id": hardware_id
     })
 
-# Vercel doesn't need to run the app with app.run() directly.
-# Flask will automatically handle requests via the serverless function provided by Vercel.
+# No need to run the app manually for Vercel. Vercel automatically handles Flask serverless functions.
 
