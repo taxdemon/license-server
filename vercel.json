@@ -2,17 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/license_server.py",
-      "use": "@vercel/python",
-      "config": {
-        "regions": ["sfo1"]
-      }
+      "src": "api/test.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
-      "src": "/api/activate",
-      "dest": "/api/license_server.py"
+      "src": "/api/test",
+      "dest": "/api/test.py"
     }
   ]
 }
