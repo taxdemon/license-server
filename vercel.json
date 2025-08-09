@@ -8,9 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/activate",
+      "src": "/api/activate",
       "dest": "api/license_server.py"
     }
   ]
 }
-
