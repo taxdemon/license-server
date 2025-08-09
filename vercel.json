@@ -3,7 +3,10 @@
   "builds": [
     {
       "src": "api/license_server.py",
-      "use": "@vercel/python"
+      "use": "@vercel/python",
+      "config": {
+        "regions": ["sfo1"]  // San Francisco region (you can change this to another region if needed)
+      }
     }
   ],
   "routes": [
@@ -13,4 +16,3 @@
     }
   ]
 }
-
